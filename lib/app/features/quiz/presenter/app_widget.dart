@@ -10,24 +10,25 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/home',
+      initialRoute: '/category',
       routes: {
-        '/category': (_) => QuizesView(),
+        '/category': (_) => const QuizesView(),
         '/home': (_) => QuizView(),
         '/anwser': (_) => QuizQuestionView()
       },
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        cardColor: Color(0xFFE8FAF3),
-        appBarTheme: AppBarTheme(
-          backgroundColor: Color(0xFF6E6DFF),
-          foregroundColor: Color(0xFF2D4464),
+        cardColor: const Color(0xFFE8FAF3),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: const Color(0xFF6E6DFF),
+          foregroundColor: const Color(0xFF2D4464),
         ),
-        primaryColor: Color(0xff8E9192),
-        textTheme: TextTheme(
+        primaryColor: const Color(0xff8E9192),
+        textTheme: const TextTheme(
           bodyText1: TextStyle(fontSize: 12),
         ),
-        iconTheme: IconThemeData(color: Color(0xFF44FFDD), size: 24),
+        iconTheme:
+            const IconThemeData(color: const Color(0xFF44FFDD), size: 24),
       ),
     );
   }

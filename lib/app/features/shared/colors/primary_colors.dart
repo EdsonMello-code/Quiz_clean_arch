@@ -20,4 +20,5 @@ extension CustomColorScheme on ColorScheme {
   Color get lineProgressBackground => const Color(0xFFDDF0DE);
   Color get lineProgressForeground => const Color(0xFF2CDA86);
   Color get buttonArrowRightColor => const Color(0xFF2CDA86);
+  Color get categoryBackground => const Color(0xFF00CB9A);
 }

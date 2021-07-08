@@ -1,7 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:quiz/app/features/quiz/domain/repositories/quiz_repository.dart';
-import 'package:quiz/app/features/quiz/infra/repositories/quiz_repository_impl.dart';
-import 'package:quiz/app/features/quiz/presenter/bloc/quiz_state_bloc.dart';
+import 'package:quiz/app/features/quiz/presenter/store/quiz_state.dart';
 
 class ListQuizBloc extends Cubit<QuizesState> {
   final QuizRepository repository;
