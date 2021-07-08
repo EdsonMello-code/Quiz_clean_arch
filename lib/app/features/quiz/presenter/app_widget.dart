@@ -10,7 +10,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/category',
+      initialRoute: '/home',
       routes: {
         '/category': (_) => QuizesView(),
         '/home': (_) => QuizView(),
