@@ -4,4 +4,4 @@
 
 <div align="center">
   <img src="./assets/images/screenshot.png">
-<div>s
+<div>
